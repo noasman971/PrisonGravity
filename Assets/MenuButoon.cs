@@ -20,7 +20,7 @@ public class MenuButoon : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("gravity");
     }
 
     public void Settings()
@@ -29,6 +29,17 @@ public class MenuButoon : MonoBehaviour
         title.SetActive(false);
         settingsScreen.SetActive(true);
     }
-    
+
+    public void exitSettings()
+    {
+        playButton.SetActive(true);
+        title.SetActive(true);
+        settingsScreen.SetActive(false);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
     
 }
