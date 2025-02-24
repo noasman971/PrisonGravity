@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 0.10f;
     public float gravityIntensity = 2.0f;
     public float cooldownTime = 0.5f;
+    public CameraTr cameraShake;
 
     private Rigidbody2D rb;
     private float nextGravityChangeTime = 0f;
@@ -26,6 +27,15 @@ public class PlayerController : MonoBehaviour
         {
             rb.gravityScale *= -1;
             nextGravityChangeTime = Time.time + cooldownTime;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Ceiling"))
+        {
+            cameraShake.TriggerShake();
         }
     }
 }
