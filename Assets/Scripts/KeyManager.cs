@@ -25,6 +25,17 @@ public class KeyManager : MonoBehaviour
         UpdateKeyUI();
     }
     
+    public void RemoveKeys(int amount)
+    {
+        keys = Mathf.Max(keys - amount, 0);
+        UpdateKeyUI();
+    }
+    
+    public int GetKeyCount()
+    {
+        return keys;
+    }
+    
     void UpdateKeyUI()
     {
         keyCountText.text = "Keys: " + keys.ToString();
