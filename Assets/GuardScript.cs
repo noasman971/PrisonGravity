@@ -105,13 +105,19 @@ public class GuardScript : MonoBehaviour
         FlipTowardsTarget(target.transform.position);
     }
 
-     void FlipTowardsTarget(Vector3 targetPosition)
+    void FlipTowardsTarget(Vector3 targetPosition)
     {
-        if (targetPosition.x > transform.position.x)
+        float halfWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2f;
+    
+        float rightEdge = transform.position.x + halfWidth;
+        float leftEdge = transform.position.x - halfWidth;
+
+        if (targetPosition.x > rightEdge)
             transform.rotation = Quaternion.Euler(0, 0, 0); // Regarde à droite
-        else
+        else if (targetPosition.x < leftEdge)
             transform.rotation = Quaternion.Euler(0, 180, 0); // Regarde à gauche
     }
+
 
 
 
