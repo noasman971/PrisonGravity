@@ -48,7 +48,7 @@ public class PauseGame : MonoBehaviour
         {
             pause = !pause;
 
-
+            
 
             if (pause)
             {  //GameObject.Find("hero_7").GetComponent<Hero>().enabled = false;

@@ -2,10 +2,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip GravityDown;
+    public AudioClip GravityUp;
+    
+    
     public float speed = 0.10f;
     public float gravityIntensity = 2.0f;
     public float cooldownTime = 0.5f;
     public CameraTr cameraShake;
+    public bool up = false;
 
     private Rigidbody2D rb;
     private float nextGravityChangeTime = 0f;
@@ -27,6 +33,18 @@ public class PlayerController : MonoBehaviour
         {
             rb.gravityScale *= -1;
             nextGravityChangeTime = Time.time + cooldownTime;
+            if (up)
+            {
+                audioSource.clip = GravityUp;
+                audioSource.Play();
+                up = false;
+            }
+            else
+            {
+                audioSource.clip = GravityDown;
+                audioSource.Play();
+                up = true;
+            }
         }
     }
 
