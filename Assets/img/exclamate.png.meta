@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8af9f7a65b82d4253abdb3af0d10c25c
+guid: 7905529e8b86d4044bad2b27b859ea60
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8104771091602538148
-    second: Bar-Grey_30x4_0
+      213: 798033399600410098
+    second: exclamate_0
+  - first:
+      213: 4363260532414494965
+    second: exclamate_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,19 +87,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,6 +101,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -165,23 +168,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bar-Grey_30x4_0
+      name: exclamate_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 84
         y: 0
-        width: 30
-        height: 4
-      alignment: 0
+        width: 104
+        height: 272
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4aef2dced5ee97070800000000000000
-      internalID: 8104771091602538148
+      spriteID: 7ffa9c8409e5d4235b86581039ca09d8
+      internalID: 1241891441
       vertices: []
       indices: 
       edges: []
@@ -190,7 +193,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 71ca69bb727c84658af4ecdf98a7d093
     internalID: 0
     vertices: []
     indices: 
@@ -200,7 +203,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bar-Grey_30x4_0: 8104771091602538148
+      exclamate_0: 1241891441
+      exclamate_1: -2095299183
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

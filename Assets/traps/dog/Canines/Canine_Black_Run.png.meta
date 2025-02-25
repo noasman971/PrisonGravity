@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 8af9f7a65b82d4253abdb3af0d10c25c
+guid: 6f3598e2d761944eb9f9dc9e63c9cc9c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8104771091602538148
-    second: Bar-Grey_30x4_0
+      213: 1971212405752195802
+    second: Canine_Black_Run_0
+  - first:
+      213: -4098943213307495525
+    second: Canine_Black_Run_1
+  - first:
+      213: 1316907477211197652
+    second: Canine_Black_Run_2
+  - first:
+      213: 7057919321001983707
+    second: Canine_Black_Run_3
+  - first:
+      213: 1656291517692328166
+    second: Canine_Black_Run_4
+  - first:
+      213: -6366752119297214049
+    second: Canine_Black_Run_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,20 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,6 +113,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -165,13 +180,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bar-Grey_30x4_0
+      name: Canine_Black_Run_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 30
-        height: 4
+        x: 3
+        y: 31
+        width: 43
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +195,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4aef2dced5ee97070800000000000000
-      internalID: 8104771091602538148
+      spriteID: adae3b53d372b5b10800000000000000
+      internalID: 1971212405752195802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Run_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 31
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bfe485dd0ad17c0800000000000000
+      internalID: -4098943213307495525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Run_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 31
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0ba3d8f58964210800000000000000
+      internalID: 1316907477211197652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Run_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 31
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde70bd5a34c2f160800000000000000
+      internalID: 7057919321001983707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Run_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e83b842c545cf610800000000000000
+      internalID: 1656291517692328166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Run_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99f2541ea0c4a7a0800000000000000
+      internalID: -6366752119297214049
       vertices: []
       indices: 
       edges: []
@@ -200,7 +325,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bar-Grey_30x4_0: 8104771091602538148
+      Canine_Black_Run_0: 1971212405752195802
+      Canine_Black_Run_1: -4098943213307495525
+      Canine_Black_Run_2: 1316907477211197652
+      Canine_Black_Run_3: 7057919321001983707
+      Canine_Black_Run_4: 1656291517692328166
+      Canine_Black_Run_5: -6366752119297214049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

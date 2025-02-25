@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 6c476b3998f25455a89e91b30c577d8b
+guid: 37e0e360a15944842905c9b2f94e4e83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7744601660029462097
-    second: Knight4Idle_0
+      213: 4473573282585055275
+    second: Canine_Black_Death_0
   - first:
-      213: -4951268152357155296
-    second: Knight4Idle_1
+      213: -5781996482860883280
+    second: Canine_Black_Death_1
   - first:
-      213: -1434873237856449457
-    second: Knight4Idle_2
+      213: 9142159610371426849
+    second: Canine_Black_Death_2
   - first:
-      213: -2335601375136476529
-    second: Knight4Idle_3
+      213: 8201102220026653207
+    second: Canine_Black_Death_3
   - first:
-      213: 8872799219130654721
-    second: Knight4Idle_4
+      213: -3349875571143576663
+    second: Canine_Black_Death_4
+  - first:
+      213: 1791895189117835721
+    second: Canine_Black_Death_5
+  - first:
+      213: 1047141581895667907
+    second: Canine_Black_Death_6
+  - first:
+      213: 2181548636593073928
+    second: Canine_Black_Death_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,20 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,6 +119,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -177,13 +186,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Knight4Idle_0
+      name: Canine_Black_Death_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 199
-        width: 146
-        height: 201
+        x: 3
+        y: 31
+        width: 42
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa91b07a2d5a58490800000000000000
-      internalID: -7744601660029462097
+      spriteID: b201921d233551e30800000000000000
+      internalID: 4473573282585055275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knight4Idle_1
+      name: Canine_Black_Death_1
       rect:
         serializedVersion: 2
-        x: 167
-        y: 199
-        width: 146
-        height: 194
+        x: 51
+        y: 31
+        width: 41
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02e0c0f29df894bb0800000000000000
-      internalID: -4951268152357155296
+      spriteID: 0b2e48a45d832cfa0800000000000000
+      internalID: -5781996482860883280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knight4Idle_2
+      name: Canine_Black_Death_2
       rect:
         serializedVersion: 2
-        x: 327
-        y: 199
-        width: 146
-        height: 194
+        x: 99
+        y: 31
+        width: 44
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +245,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4c0ad7746e461ce0800000000000000
-      internalID: -1434873237856449457
+      spriteID: 12acc187ab97fde70800000000000000
+      internalID: 9142159610371426849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knight4Idle_3
+      name: Canine_Black_Death_3
       rect:
         serializedVersion: 2
-        x: 7
+        x: 148
+        y: 31
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a2b5f840b20d170800000000000000
+      internalID: 8201102220026653207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Death_4
+      rect:
+        serializedVersion: 2
+        x: 4
         y: 0
-        width: 146
-        height: 185
+        width: 45
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8293128ce6469fd0800000000000000
-      internalID: -2335601375136476529
+      spriteID: 9a37a3c9ae9d281d0800000000000000
+      internalID: -3349875571143576663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knight4Idle_4
+      name: Canine_Black_Death_5
       rect:
         serializedVersion: 2
-        x: 167
+        x: 52
         y: 0
-        width: 146
-        height: 193
+        width: 45
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,8 +311,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10065a331e3822b70800000000000000
-      internalID: 8872799219130654721
+      spriteID: 9c9991e3e271ed810800000000000000
+      internalID: 1791895189117835721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Death_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c09e6288b1388e00800000000000000
+      internalID: 1047141581895667907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Death_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f2e583dea664e10800000000000000
+      internalID: 2181548636593073928
       vertices: []
       indices: 
       edges: []
@@ -300,11 +375,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Knight4Idle_0: -7744601660029462097
-      Knight4Idle_1: -4951268152357155296
-      Knight4Idle_2: -1434873237856449457
-      Knight4Idle_3: -2335601375136476529
-      Knight4Idle_4: 8872799219130654721
+      Canine_Black_Death_0: 4473573282585055275
+      Canine_Black_Death_1: -5781996482860883280
+      Canine_Black_Death_2: 9142159610371426849
+      Canine_Black_Death_3: 8201102220026653207
+      Canine_Black_Death_4: -3349875571143576663
+      Canine_Black_Death_5: 1791895189117835721
+      Canine_Black_Death_6: 1047141581895667907
+      Canine_Black_Death_7: 2181548636593073928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

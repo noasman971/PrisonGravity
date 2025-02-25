@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: 8af9f7a65b82d4253abdb3af0d10c25c
+guid: 5bc314fcc318e4fafa9877bb58eb1690
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8104771091602538148
-    second: Bar-Grey_30x4_0
+      213: 1581296986342731018
+    second: Canine_Black_Attack_0
+  - first:
+      213: -2751319987595852780
+    second: Canine_Black_Attack_1
+  - first:
+      213: -5825201665037384890
+    second: Canine_Black_Attack_2
+  - first:
+      213: -2654988323386430698
+    second: Canine_Black_Attack_3
+  - first:
+      213: 6897561481303061180
+    second: Canine_Black_Attack_4
+  - first:
+      213: 5648263212881212058
+    second: Canine_Black_Attack_5
+  - first:
+      213: -8785001194796006324
+    second: Canine_Black_Attack_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,20 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,6 +116,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -165,13 +183,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bar-Grey_30x4_0
+      name: Canine_Black_Attack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 30
-        height: 4
+        x: 2
+        y: 31
+        width: 45
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +198,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4aef2dced5ee97070800000000000000
-      internalID: 8104771091602538148
+      spriteID: a0daa532b35e1f510800000000000000
+      internalID: 1581296986342731018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 31
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414cae36c0951d9d0800000000000000
+      internalID: -2751319987595852780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 36
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643ce6ae2f9b82fa0800000000000000
+      internalID: -5825201665037384890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 32
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bedb5cf26972bd0800000000000000
+      internalID: -2654988323386430698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27c755f9f09bf50800000000000000
+      internalID: 6897561481303061180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92f0b16779a26e40800000000000000
+      internalID: 5648263212881212058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Black_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c444dc055f7651680800000000000000
+      internalID: -8785001194796006324
       vertices: []
       indices: 
       edges: []
@@ -200,7 +350,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bar-Grey_30x4_0: 8104771091602538148
+      Canine_Black_Attack_0: 1581296986342731018
+      Canine_Black_Attack_1: -2751319987595852780
+      Canine_Black_Attack_2: -5825201665037384890
+      Canine_Black_Attack_3: -2654988323386430698
+      Canine_Black_Attack_4: 6897561481303061180
+      Canine_Black_Attack_5: 5648263212881212058
+      Canine_Black_Attack_6: -8785001194796006324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
