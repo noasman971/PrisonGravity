@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Ceiling"))
         {
-            cameraShake.TriggerShake();
+            //cameraShake.TriggerShake();
         }
     }
 }
