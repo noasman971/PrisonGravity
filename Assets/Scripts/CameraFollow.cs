@@ -7,6 +7,7 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset = new Vector3(0, 0, -10);
     public float smoothSpeed = 0.125f;
     private bool isShaking = false;
+    private Vector3 shakeOffset = Vector3.zero;
 
     void LateUpdate()
     {
@@ -14,7 +15,7 @@ public class CameraFollow : MonoBehaviour
         {
             Vector3 targetPosition = player.position + offset;
             Vector3 smoothPosition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed);
-            transform.position = smoothPosition;
+            transform.position = smoothPosition + shakeOffset;
         }
     }
 
@@ -29,7 +30,6 @@ public class CameraFollow : MonoBehaviour
     private IEnumerator Shake(float duration, float magnitude)
     {
         isShaking = true;
-        Vector3 originalPosition = transform.position;
         float elapsed = 0f;
 
         while (elapsed < duration)
@@ -37,13 +37,13 @@ public class CameraFollow : MonoBehaviour
             float x = Random.Range(-1f, 1f) * magnitude;
             float y = Random.Range(-1f, 1f) * magnitude;
             
-            transform.position = originalPosition + new Vector3(x, y, 0);
+            shakeOffset = new Vector3(x, y, 0);
             
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        transform.position = originalPosition;
+        shakeOffset = Vector3.zero;
         isShaking = false;
     }
 }
