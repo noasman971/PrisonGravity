@@ -26,19 +26,17 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        float move = Input.GetAxisRaw("Horizontal") * speed;
-        transform.position += new Vector3(move, 0, 0);
 
-        if (move == 0)
-        {
+        float move = Input.GetAxis("Horizontal") * speed;
+        transform.position += new Vector3(move, 0, 0);
+        if(move == 0){
             animator.SetBool("Idle", true);
             animator.SetBool("Move", false);
-        }
-        else
-        {
+        } else {
             animator.SetBool("Idle", false);
             animator.SetBool("Move", true);
         }
+
         if (Input.GetKeyDown(KeyCode.Space) && Time.time > nextGravityChangeTime)
         {
             rb.gravityScale *= -1;
