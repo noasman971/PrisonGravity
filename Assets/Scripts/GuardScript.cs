@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GuardScript : MonoBehaviour
@@ -23,13 +24,18 @@ public class GuardScript : MonoBehaviour
     private float moveSpeed = 2f;
     
     private int currentWaypoint = 0;
-    
-    
-    
+
+
+    private void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log("ALALLALALALA: " + GameObject.FindGameObjectWithTag("Player"));
+    }
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        transform.position = waypoints[currentWaypoint].transform.position;
     }
 
     // Update is called once per frame
@@ -37,6 +43,7 @@ public class GuardScript : MonoBehaviour
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
         Debug.Log(hit);
+        Debug.Log("ALALLALALALA: " + player);
 
         if (hit != null)
         {
@@ -104,13 +111,19 @@ public class GuardScript : MonoBehaviour
         FlipTowardsTarget(target.transform.position);
     }
 
-     void FlipTowardsTarget(Vector3 targetPosition)
+    void FlipTowardsTarget(Vector3 targetPosition)
     {
-        if (targetPosition.x > transform.position.x)
+        float halfWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2f;
+    
+        float rightEdge = transform.position.x + halfWidth;
+        float leftEdge = transform.position.x - halfWidth;
+
+        if (targetPosition.x > rightEdge)
             transform.rotation = Quaternion.Euler(0, 0, 0); // Regarde à droite
-        else
+        else if (targetPosition.x < leftEdge)
             transform.rotation = Quaternion.Euler(0, 180, 0); // Regarde à gauche
     }
+
 
 
 
