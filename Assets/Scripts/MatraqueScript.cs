@@ -27,7 +27,6 @@ public class MatraqueScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.CompareTag("Wall"))
         {
             Destroy(gameObject);

@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 265cd349066df0041b8d4c80213dc974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1808632811}
+  player: {fileID: 0}
   offset: {x: 0, y: 0, z: -10}
   smoothSpeed: 0.125
 --- !u!82 &327252296
@@ -3851,7 +3851,7 @@ MonoBehaviour:
   GravityDown: {fileID: 8300000, guid: e7c13c96deeb3478a978004c1f631bce, type: 3}
   GravityUp: {fileID: 8300000, guid: 1e58dbd18841644678d2dc43ffd9d649, type: 3}
   speed: 0.3
-  gravityIntensity: 2
+  gravityIntensity: 40
   cooldownTime: 0.5
   cameraShake: {fileID: 0}
   up: 0
