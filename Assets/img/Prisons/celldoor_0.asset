@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: celldoor_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -4295199599204945888, guid: 32d20a0e45c39c0448f4e3f939387ecd, type: 3}
+  m_Sprite: {fileID: 7400115097195883718, guid: e7ac9d05e90e42ce8a616e95ca641684, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

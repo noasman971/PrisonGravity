@@ -1,0 +1,2631 @@
+fileFormatVersion: 2
+guid: ced6a2a26bc494085b22ddb8641b349b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2936812157756086987
+    second: punyworld-overworld-tileset_0
+  - first:
+      213: 2313278028701488810
+    second: punyworld-overworld-tileset_1
+  - first:
+      213: 8783211479544010488
+    second: punyworld-overworld-tileset_2
+  - first:
+      213: -2745756333320004175
+    second: punyworld-overworld-tileset_3
+  - first:
+      213: 4449115006935482516
+    second: punyworld-overworld-tileset_4
+  - first:
+      213: 1573795116900017078
+    second: punyworld-overworld-tileset_5
+  - first:
+      213: 340865343723981369
+    second: punyworld-overworld-tileset_6
+  - first:
+      213: -276281134952907864
+    second: punyworld-overworld-tileset_7
+  - first:
+      213: -8724251955666452531
+    second: punyworld-overworld-tileset_8
+  - first:
+      213: -89065700305484890
+    second: punyworld-overworld-tileset_9
+  - first:
+      213: 4514862980498190093
+    second: punyworld-overworld-tileset_10
+  - first:
+      213: -2185020530834260083
+    second: punyworld-overworld-tileset_11
+  - first:
+      213: -5929902050990664889
+    second: punyworld-overworld-tileset_12
+  - first:
+      213: 5270496722690507890
+    second: punyworld-overworld-tileset_13
+  - first:
+      213: -90611333369374639
+    second: punyworld-overworld-tileset_14
+  - first:
+      213: 3600786152494843308
+    second: punyworld-overworld-tileset_15
+  - first:
+      213: -7837799151746164180
+    second: punyworld-overworld-tileset_16
+  - first:
+      213: -5305572277966667491
+    second: punyworld-overworld-tileset_17
+  - first:
+      213: 1509359456371806168
+    second: punyworld-overworld-tileset_18
+  - first:
+      213: -3448887729838811329
+    second: punyworld-overworld-tileset_19
+  - first:
+      213: -1160479733478164140
+    second: punyworld-overworld-tileset_20
+  - first:
+      213: -8194545290176133825
+    second: punyworld-overworld-tileset_21
+  - first:
+      213: -8272125681096778712
+    second: punyworld-overworld-tileset_22
+  - first:
+      213: -1442737465060348579
+    second: punyworld-overworld-tileset_23
+  - first:
+      213: 3579714133741828167
+    second: punyworld-overworld-tileset_24
+  - first:
+      213: 6614691278404932023
+    second: punyworld-overworld-tileset_25
+  - first:
+      213: -4859788222585461065
+    second: punyworld-overworld-tileset_26
+  - first:
+      213: 6116716384031404787
+    second: punyworld-overworld-tileset_27
+  - first:
+      213: 9148712932217380277
+    second: punyworld-overworld-tileset_28
+  - first:
+      213: 3462340933819930205
+    second: punyworld-overworld-tileset_29
+  - first:
+      213: 4898157832241231767
+    second: punyworld-overworld-tileset_30
+  - first:
+      213: 4658605441078864421
+    second: punyworld-overworld-tileset_31
+  - first:
+      213: 1887297476542641701
+    second: punyworld-overworld-tileset_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61110445f243a4f0d918438b3135a22a
+      internalID: -789569293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce10c3de18404ec9a7a162a4e5e7eda
+      internalID: 1348312627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f15c30f6dc614bc2b1cb1cb51a8b14e
+      internalID: -165062612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035826f7858545febcd47975330f3c7
+      internalID: -1362149472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9855aacef87db42c5b22d0aea7c34ecf
+      internalID: -1358032479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59e696385eea46668350720cfe728d5
+      internalID: -236584324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac4292f03adf46bfb53611886add388
+      internalID: 1751632437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbe5b2e1060046eabe362ee7457e1fb
+      internalID: -2009655922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 992
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaee98ef04d34b67af89c764bfd2443
+      internalID: 1985158380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850f035136bab4248b5b023aef830005
+      internalID: 1715537989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b30f5d2f91cf4efa92bfc12cd180f6d
+      internalID: 698341177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8119d7ad7bfb94ea5b9ff9cbcea35041
+      internalID: 1352385298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e762129de14b4e4cbf06c079d903313
+      internalID: -1706961075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec806c60ca7e4866941bbd32dc0882f
+      internalID: 1703043983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f113548beb44aafbb8ac4fb3bd4dd5
+      internalID: -665119950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c4f39bd6e14b55a2465d866d21cc8
+      internalID: -2131223934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9193c2edc0a2413bb7c7236f4e56ca1
+      internalID: 1529339474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5663c7739a48fd881b3de49cf4eb7
+      internalID: -12430039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 896
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee54080dbfeee43ffa2b558bbc4563b6
+      internalID: 934796069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 896
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618cc319c21f248cf85be3d16839ba0d
+      internalID: 2101722951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 896
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6897f4f29b0cc4e4eadab32a0975f8d1
+      internalID: -1408294415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd231426e9d64d0db4c3a6f2d1f9d8b
+      internalID: -205816291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 896
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a836fb24e89489b8707122833f9a2c
+      internalID: 1210254159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e78e52dab6c479386d8c5823358139
+      internalID: 625043363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8437c04353f5542b8aa52dd38f87d694
+      internalID: -1525594395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8fa5b594f7b4ffda5e85be1e602eda
+      internalID: -472233069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a672680427d443fbb574226eb926eac
+      internalID: 931873405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7322b658d7a2142d4906fee0e41212ca
+      internalID: 375071852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d59fcba9749425fa9490240373c605
+      internalID: -906687895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9e55404223340498fae0467a1a6cab
+      internalID: -1473992606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d4cf35ec0974797a857dfb5fe7de4a
+      internalID: -2012856522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 848
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f7bc55f7f094b999fe055b36801e77
+      internalID: -1061400509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a6af9b0cc8b46879e630da74c36ba4
+      internalID: -1384488447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd99ac00b8dc4af69e14919a42718be
+      internalID: 361392248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c1b4245de748d1a3cef1135e579c8
+      internalID: -422478377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e204ea7472a4bf3b184f296ec6f3ef
+      internalID: -1163173413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53a6facfa480464a9949e3addaf6782
+      internalID: -2112254086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165bb28b960944de6b116d0d3ae99d2c
+      internalID: 1376859961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0ea1587896649828b201203fac1e35
+      internalID: 86116714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d29d21bb19b9406382a1505d8e0510c
+      internalID: 187084957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 800
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505ebc10cf46d4690b7095791c13ed51
+      internalID: 403761492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8abf6921edd4931a587ca6158080b0
+      internalID: -472480595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c358096cfd412b81fd9a9eb1e425d
+      internalID: 1125938262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f758fa19bab9432bb7ec509e50b27b0
+      internalID: 1060757661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6988635c6144912b4fa9821bbad3af
+      internalID: -1108648278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc77ad76eb99446b996da4783f53cc3
+      internalID: 1394703348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6560ead54179745d18a30dcebc8a9c03
+      internalID: -1965343956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad0e86bec8024166a70d19f2387aa1d
+      internalID: -782731725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d48f29727c5d434f8137b56fad1c72c
+      internalID: -175449447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 752
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54a8909a2ac54ff387057bafb5f95d9
+      internalID: 1718917045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ced3e64d8bb455cbf7be52bf9cf022
+      internalID: 1352559921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42041e883dfa149e2a0181a985b7f5a2
+      internalID: -1440751875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c45ebf51e54c1b96130541253a871
+      internalID: 616031612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c932d646374448d5b1c17245ba5c770
+      internalID: 1470345939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd352fa6eb83446ea762a815ae04645
+      internalID: 554220562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1e08740f7274c8ca972bba54fd555e
+      internalID: -1093058012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d598046cbf8884c8ca7b8381a1e294ec
+      internalID: -1449287964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4b45a3aebb84a99beb2be21113a3ed
+      internalID: -1243294741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b0ba3446204c38ac7d0f05569a5f3
+      internalID: -33945021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05250614555a4e4498e29c0ceb5ad92
+      internalID: -1227108769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f387c4a8ff64ab7b3caffe63be8a57
+      internalID: 2055250672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dff2a00247ee40f3bbd18fe5efaa5a6
+      internalID: -366147573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef357233bf949c6bb9f7bc54bca501
+      internalID: 1431843916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4af4a65275b463592023daf793ca5a
+      internalID: 1035794019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2355270de4a4580807eed8fd87ae1c
+      internalID: 1794928370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_65
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79664fcb791e43cda5a447974720e2f
+      internalID: 1596189695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519668d3a41b444cf979c7ee52bff0ea
+      internalID: 994700069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 656
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b15502b06d4343d3b7ce9fd7ba68369
+      internalID: 263848748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dd7c7d70ad345f0adc774bb08963e5
+      internalID: -1834528702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d2e9ff8ddb1451f9075546c071eefe
+      internalID: -1696301528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ccd413beaf44eeae52a7a806f251a
+      internalID: -401077792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_71
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae139bb4db0d143d284c8df7901dddc6
+      internalID: -842873068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6e77ecbcb50459b8df5bf3bd4b2ccf
+      internalID: -204244886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef121d6a89d748f6aaad7c6ed4f32fd
+      internalID: -1028319982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d19031a2c44d0891fbe5ef6a30383
+      internalID: 2074652815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_75
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fc03307cfe743729b44240f55f2eb2
+      internalID: -1768351390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820151470a2d64931b577734ca1ecaf4
+      internalID: -949962551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8744b583fb44a2a9ace3e492714258
+      internalID: 626188754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_78
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47e797fcfdd04d81ad7aaf30834cd47
+      internalID: -674588197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbba18175a8fe4c04a9160ac270801ba
+      internalID: 356633722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7847ea331109d4a0aa99817e086ea0b7
+      internalID: 398820808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2022846197ee492d843a473a386326a
+      internalID: 1904439755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe41d9a3632ef484bb0b13fbc81d688e
+      internalID: 2009298734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_83
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b52f7df7ab0a4eb198d98d1ff687e21
+      internalID: 209068592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_84
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31ecfe0eb0d74c72ae1ef316d811328
+      internalID: 1351631492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_85
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 560
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea02ba9b999f46d09b378fef678f3eb
+      internalID: 1232811968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff3aa3dd2784b29b252e15dc10b435
+      internalID: 274572551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 512
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a22b069a0a4749729dc3e92391851bc
+      internalID: -576569398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac359470dbb85417380c10b0f4ab25fe
+      internalID: 1093127295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2745c83322b6d445d85464af6355618d
+      internalID: 140954423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47c5a3250c2f4d849304cb80fe7fcfe
+      internalID: -1792892104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c2cec381634cbcb28c001788bd722
+      internalID: 1346444834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42168240ec74b17b4b45f6be683ea9
+      internalID: -1137373374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf960029d8734d8e8db287d1a435296
+      internalID: -378902553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d461947db80e4e1b9e6655dd8933b9d
+      internalID: 581711073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0424ab452fea400c8dae8de8da050b4
+      internalID: -1605326578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_96
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20084d311e2b64b228ba607551991e3a
+      internalID: 2017600268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_97
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc047873093d34202b5b8ec11995f659
+      internalID: -920741232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_98
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e25066734934a95aa6e9f400caf5a6
+      internalID: 840648516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddae568aae8946e8ab36dfc9380773f
+      internalID: -458910172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_100
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805bc08ca8e9346fda4bca412185778f
+      internalID: 1162277497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3415474a3a1fd432cbb79ec07e0fc84c
+      internalID: -805399601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_102
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144cb7807ae54b4ebf04b2571627a53
+      internalID: -934919762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_103
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9ac1a9e63c04a0ab8ba1d2adcf19c9
+      internalID: -107678231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punyworld-overworld-tileset_104
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 416
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6991e5d70a924f088b0e95e93303be4
+      internalID: -2015647457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3d96ee2e8b71743fd9ad216447a44493
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      punyworld-overworld-tileset_0: -789569293
+      punyworld-overworld-tileset_1: 1348312627
+      punyworld-overworld-tileset_10: 698341177
+      punyworld-overworld-tileset_100: 1162277497
+      punyworld-overworld-tileset_101: -805399601
+      punyworld-overworld-tileset_102: -934919762
+      punyworld-overworld-tileset_103: -107678231
+      punyworld-overworld-tileset_104: -2015647457
+      punyworld-overworld-tileset_11: 1352385298
+      punyworld-overworld-tileset_12: -1706961075
+      punyworld-overworld-tileset_13: 1703043983
+      punyworld-overworld-tileset_14: -665119950
+      punyworld-overworld-tileset_15: -2131223934
+      punyworld-overworld-tileset_16: 1529339474
+      punyworld-overworld-tileset_17: -12430039
+      punyworld-overworld-tileset_18: 934796069
+      punyworld-overworld-tileset_19: 2101722951
+      punyworld-overworld-tileset_2: -165062612
+      punyworld-overworld-tileset_20: -1408294415
+      punyworld-overworld-tileset_21: -205816291
+      punyworld-overworld-tileset_22: 1210254159
+      punyworld-overworld-tileset_23: 625043363
+      punyworld-overworld-tileset_24: -1525594395
+      punyworld-overworld-tileset_25: -472233069
+      punyworld-overworld-tileset_26: 931873405
+      punyworld-overworld-tileset_27: 375071852
+      punyworld-overworld-tileset_28: -906687895
+      punyworld-overworld-tileset_29: -1473992606
+      punyworld-overworld-tileset_3: -1362149472
+      punyworld-overworld-tileset_30: -2012856522
+      punyworld-overworld-tileset_31: -1061400509
+      punyworld-overworld-tileset_32: -1384488447
+      punyworld-overworld-tileset_33: 361392248
+      punyworld-overworld-tileset_34: -422478377
+      punyworld-overworld-tileset_35: -1163173413
+      punyworld-overworld-tileset_36: -2112254086
+      punyworld-overworld-tileset_37: 1376859961
+      punyworld-overworld-tileset_38: 86116714
+      punyworld-overworld-tileset_39: 187084957
+      punyworld-overworld-tileset_4: -1358032479
+      punyworld-overworld-tileset_40: 403761492
+      punyworld-overworld-tileset_41: -472480595
+      punyworld-overworld-tileset_42: 1125938262
+      punyworld-overworld-tileset_43: 1060757661
+      punyworld-overworld-tileset_44: -1108648278
+      punyworld-overworld-tileset_45: 1394703348
+      punyworld-overworld-tileset_46: -1965343956
+      punyworld-overworld-tileset_47: -782731725
+      punyworld-overworld-tileset_48: -175449447
+      punyworld-overworld-tileset_49: 1718917045
+      punyworld-overworld-tileset_5: -236584324
+      punyworld-overworld-tileset_50: 1352559921
+      punyworld-overworld-tileset_51: -1440751875
+      punyworld-overworld-tileset_52: 616031612
+      punyworld-overworld-tileset_53: 1470345939
+      punyworld-overworld-tileset_54: 554220562
+      punyworld-overworld-tileset_55: -1093058012
+      punyworld-overworld-tileset_56: -1449287964
+      punyworld-overworld-tileset_57: -1243294741
+      punyworld-overworld-tileset_58: -33945021
+      punyworld-overworld-tileset_59: -1227108769
+      punyworld-overworld-tileset_6: 1751632437
+      punyworld-overworld-tileset_60: 2055250672
+      punyworld-overworld-tileset_61: -366147573
+      punyworld-overworld-tileset_62: 1431843916
+      punyworld-overworld-tileset_63: 1035794019
+      punyworld-overworld-tileset_64: 1794928370
+      punyworld-overworld-tileset_65: 1596189695
+      punyworld-overworld-tileset_66: 994700069
+      punyworld-overworld-tileset_67: 263848748
+      punyworld-overworld-tileset_68: -1834528702
+      punyworld-overworld-tileset_69: -1696301528
+      punyworld-overworld-tileset_7: -2009655922
+      punyworld-overworld-tileset_70: -401077792
+      punyworld-overworld-tileset_71: -842873068
+      punyworld-overworld-tileset_72: -204244886
+      punyworld-overworld-tileset_73: -1028319982
+      punyworld-overworld-tileset_74: 2074652815
+      punyworld-overworld-tileset_75: -1768351390
+      punyworld-overworld-tileset_76: -949962551
+      punyworld-overworld-tileset_77: 626188754
+      punyworld-overworld-tileset_78: -674588197
+      punyworld-overworld-tileset_79: 356633722
+      punyworld-overworld-tileset_8: 1985158380
+      punyworld-overworld-tileset_80: 398820808
+      punyworld-overworld-tileset_81: 1904439755
+      punyworld-overworld-tileset_82: 2009298734
+      punyworld-overworld-tileset_83: 209068592
+      punyworld-overworld-tileset_84: 1351631492
+      punyworld-overworld-tileset_85: 1232811968
+      punyworld-overworld-tileset_86: 274572551
+      punyworld-overworld-tileset_87: -576569398
+      punyworld-overworld-tileset_88: 1093127295
+      punyworld-overworld-tileset_89: 140954423
+      punyworld-overworld-tileset_9: 1715537989
+      punyworld-overworld-tileset_90: -1792892104
+      punyworld-overworld-tileset_91: 1346444834
+      punyworld-overworld-tileset_92: -1137373374
+      punyworld-overworld-tileset_93: -378902553
+      punyworld-overworld-tileset_94: 581711073
+      punyworld-overworld-tileset_95: -1605326578
+      punyworld-overworld-tileset_96: 2017600268
+      punyworld-overworld-tileset_97: -920741232
+      punyworld-overworld-tileset_98: 840648516
+      punyworld-overworld-tileset_99: -458910172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
