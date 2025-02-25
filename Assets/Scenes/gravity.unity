@@ -3856,7 +3856,6 @@ MonoBehaviour:
   cooldownTime: 0.5
   cameraShake: {fileID: 0}
   up: 0
-  animator: {fileID: 0}
 --- !u!50 &1906515016
 Rigidbody2D:
   serializedVersion: 5
@@ -3922,7 +3921,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.28, y: 8.33}
+    oldSize: {x: 5.28, y: 8.18}
     newSize: {x: 5.28, y: 8.33}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

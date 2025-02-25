@@ -36,6 +36,7 @@ public class GuardScript : MonoBehaviour
     void Update()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
+        Debug.Log(hit);
 
         if (hit != null)
         {
@@ -45,7 +46,6 @@ public class GuardScript : MonoBehaviour
             
             if (timer > attackRate && !hasAttacked)
             {
-                Debug.Log(timer);
                 timer = 0;
                 throwAttack();
                 hasAttacked = true;
@@ -77,7 +77,6 @@ public class GuardScript : MonoBehaviour
         if (!hasAttacked)
         {
             direction = (player.transform.position - matraque.transform.position).normalized;
-            Debug.Log(direction);
             matraque.SetActive(false);
             Rigidbody2D rb = Instantiate(matraquePrefab, matraque.transform.position, matraque.transform.rotation, transform.parent)
                 .GetComponent<Rigidbody2D>();
@@ -105,19 +104,13 @@ public class GuardScript : MonoBehaviour
         FlipTowardsTarget(target.transform.position);
     }
 
-    void FlipTowardsTarget(Vector3 targetPosition)
+     void FlipTowardsTarget(Vector3 targetPosition)
     {
-        float halfWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2f;
-    
-        float rightEdge = transform.position.x + halfWidth;
-        float leftEdge = transform.position.x - halfWidth;
-
-        if (targetPosition.x > rightEdge)
+        if (targetPosition.x > transform.position.x)
             transform.rotation = Quaternion.Euler(0, 0, 0); // Regarde à droite
-        else if (targetPosition.x < leftEdge)
+        else
             transform.rotation = Quaternion.Euler(0, 180, 0); // Regarde à gauche
     }
-
 
 
 
