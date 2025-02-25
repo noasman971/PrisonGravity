@@ -358,6 +358,7 @@ MonoBehaviour:
   timer: 0
   rotationTimer: 6
   GuardPrefab: {fileID: 7372390725843592037, guid: 2e03b00c5e3f84abbb43fd65a19af114, type: 3}
+  Player: {fileID: 2114698732}
 --- !u!60 &472860706
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -541,7 +542,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866398345}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1654,7 +1655,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2146019875643631430
 BoxCollider2D:
   m_ObjectHideFlags: 0
