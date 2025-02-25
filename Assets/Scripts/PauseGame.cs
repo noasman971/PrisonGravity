@@ -6,8 +6,13 @@ public class PauseGame : MonoBehaviour
     private bool pause = false;
     public GameObject pauseUI;
 
+    void Awake()
+    {
+        pauseUI.SetActive(false);
+    }
     
-
+    
+    
     public void Quit()
     {
         Debug.Log("Quit");
@@ -31,6 +36,7 @@ public class PauseGame : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
+        pauseUI.SetActive(false);
     }
 
     public void MainMenu()

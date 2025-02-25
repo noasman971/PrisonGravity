@@ -20,7 +20,7 @@ public class MenuButoon : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("gravity");
+        SceneManager.LoadScene("Couloir");
     }
 
     public void Settings()

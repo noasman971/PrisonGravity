@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/gravity.unity
     guid: e6d982f5cacbaa6bd802892c67e21e06
+  - enabled: 1
+    path: Assets/Scenes/Couloir.unity
+    guid: eefa65ef1237895509d8ee3df2a56555
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
