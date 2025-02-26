@@ -16665,7 +16665,7 @@ MonoBehaviour:
   audioSource: {fileID: 565443944}
   GravityDown: {fileID: 8300000, guid: e7c13c96deeb3478a978004c1f631bce, type: 3}
   GravityUp: {fileID: 8300000, guid: 1e58dbd18841644678d2dc43ffd9d649, type: 3}
-  speed: 0.5
+  speed: 0.4
   gravityIntensity: 40
   cooldownTime: 0.5
   cameraShake: {fileID: 0}
@@ -18138,7 +18138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keysRequired: 1
-  sceneToLoad: LaCours
+  sceneToLoad: Cafet
 --- !u!212 &1198737306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18182,7 +18182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18203,8 +18203,8 @@ Transform:
   m_GameObject: {fileID: 1198737303}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.02, y: -111.19, z: 0}
-  m_LocalScale: {x: 5.5934, y: 0.96148527, z: 1}
+  m_LocalPosition: {x: -56.02, y: -100.9511, z: 0}
+  m_LocalScale: {x: 5.5934, y: 21.439295, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
