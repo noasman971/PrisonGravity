@@ -4,18 +4,18 @@ using UnityEngine.SceneManagement;
 public class DoorScript : MonoBehaviour
 {
     public int keysRequired = 3;
-    public string sceneToLoad = "Couloir"; // Set the default scene name here
+    public string sceneToLoad = "Couloir";
     private bool isOpen = false;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("cave");
+           // SceneManager.LoadScene("cave");
             if (KeyManager.instance.GetKeyCount() >= keysRequired)
             {
-                SceneManager.LoadScene("cave");
-                //OpenDoor();
+               // SceneManager.LoadScene("cave");
+                OpenDoor();
             }
             else
             {
@@ -32,7 +32,7 @@ public class DoorScript : MonoBehaviour
             Debug.Log("Door is opening!");
             KeyManager.instance.RemoveKeys(keysRequired);
             Destroy(gameObject);
-            SceneManager.LoadScene(sceneToLoad); // Load the scene based on the value set in the Inspector
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 }
