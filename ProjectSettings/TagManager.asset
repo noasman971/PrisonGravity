@@ -8,6 +8,7 @@ TagManager:
   - Guard
   - Ground
   - Ceiling
+  - Waypoint
   layers:
   - Default
   - TransparentFX
