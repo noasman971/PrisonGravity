@@ -11,9 +11,11 @@ public class DoorScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            SceneManager.LoadScene("cave");
             if (KeyManager.instance.GetKeyCount() >= keysRequired)
             {
-                OpenDoor();
+                SceneManager.LoadScene("cave");
+                //OpenDoor();
             }
             else
             {
