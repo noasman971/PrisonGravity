@@ -7,31 +7,25 @@ public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
     [SerializeField] Animator transitionAnim;
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(this);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+
 
     public void NextLevel()
     {
-        StartCoroutine(LoadLevel());
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1));
         
     }
 
-    IEnumerator LoadLevel()
+    public void ReloadLevel()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex));
+    }
+
+    IEnumerator LoadLevel(int level)
     {
         transitionAnim.SetTrigger("End");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex+1);
-        transitionAnim.ResetTrigger("Start");
+        SceneManager.LoadSceneAsync(level);
+        transitionAnim.SetTrigger("Start");
     }
 
 }

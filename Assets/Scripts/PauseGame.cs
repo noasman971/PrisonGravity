@@ -8,9 +8,11 @@ public class PauseGame : MonoBehaviour
 
     void Awake()
     {
+        pauseUI = GameObject.Find("PauseUI");
         pauseUI.SetActive(false);
     }
-    
+
+
     
     
     public void Quit()
