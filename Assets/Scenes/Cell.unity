@@ -959,7 +959,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &565443943
 BoxCollider2D:
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   audioSource: {fileID: 565443944}
   GravityDown: {fileID: 8300000, guid: e7c13c96deeb3478a978004c1f631bce, type: 3}
   GravityUp: {fileID: 8300000, guid: 1e58dbd18841644678d2dc43ffd9d649, type: 3}
-  speed: 0.3
+  speed: 0.4
   gravityIntensity: 40
   cooldownTime: 0.5
   cameraShake: {fileID: 0}
