@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip GravityDown;
     public AudioClip GravityUp;
+    public AudioClip footstepSound;  
+
     public float decceleration;
     public float velPower;
     public float acceleration;
@@ -13,12 +15,15 @@ public class PlayerController : MonoBehaviour
     public float speed = 0.10f;
     public float gravityIntensity = 2.0f;
     public float cooldownTime = 0.5f;
+
     public CameraTr cameraShake;
     public bool up = false;
     public Animator animator;
 
     private Rigidbody2D rb;
     private float nextGravityChangeTime = 0f;
+    
+    public ParticleSystem gravityChangeParticles;
 
     void Start()
     {
@@ -29,51 +34,61 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         float targetSpeed = speed * moveInput;
         float speedDif = targetSpeed - rb.linearVelocity.x;
-        float accelRate = (Mathf.Abs(targetSpeed)> 0.01f) ? acceleration : decceleration;
+        float accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? acceleration : decceleration;
         float movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, velPower) * Mathf.Sign(speedDif);
         rb.AddForce(Vector2.right * movement);
     }
 
     void Update()
     {
-        
-
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        //float move = Input.GetAxis("Horizontal") * speed;
-        //transform.position += new Vector3(move, 0, 0);
-        if(moveInput == 0){
+        if(moveInput == 0)
+        {
             animator.SetBool("Idle", true);
             animator.SetBool("Move", false);
-        } else {
+            if(audioSource.isPlaying && audioSource.clip == footstepSound)
+            {
+                audioSource.Stop();
+            }
+        }
+        else
+        {
             animator.SetBool("Idle", false);
             animator.SetBool("Move", true);
+            if(!audioSource.isPlaying)
+            {
+                audioSource.clip = footstepSound;
+                audioSource.loop = true;
+                audioSource.Play();
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && Time.time > nextGravityChangeTime)
         {
             rb.gravityScale *= -1;
             nextGravityChangeTime = Time.time + cooldownTime;
+            
+            if(gravityChangeParticles != null)
+            {
+                gravityChangeParticles.Play();
+            }
 
             if (up)
             {
-                audioSource.clip = GravityUp;
-                audioSource.Play();
+                audioSource.PlayOneShot(GravityUp);
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 up = false;
             }
             else
             {
                 transform.eulerAngles = new Vector3(0, 0, 180);
-                audioSource.clip = GravityDown;
-                audioSource.Play();
+                audioSource.PlayOneShot(GravityDown);
                 up = true;
             }
         }
-
 
         Vector3 scale = transform.localScale;
         float originalX = Mathf.Abs(scale.x);
@@ -84,10 +99,8 @@ public class PlayerController : MonoBehaviour
         }
         else if (moveInput < 0)
         {
-
             scale.x = up ? originalX : -originalX;
         }
-
         transform.localScale = scale;
     }
 }
