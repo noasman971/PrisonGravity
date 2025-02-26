@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     {
 
         float targetSpeed = speed * moveInput;
-        float speedDif = targetSpeed - rb.velocity.x;
+        float speedDif = targetSpeed - rb.linearVelocity.x;
         float accelRate = (Mathf.Abs(targetSpeed)> 0.01f) ? acceleration : decceleration;
         float movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, velPower) * Mathf.Sign(speedDif);
         rb.AddForce(Vector2.right * movement);

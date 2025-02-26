@@ -10,22 +10,19 @@ public class WindAppear : MonoBehaviour
     void Start()
     {
         wind.SetActive(true);
-        StartCoroutine(ToggleWind());
+        StartCoroutine(ToggleLaser());
     }
 
-    void Update()
-    {
-        StartCoroutine(ToggleWind());
-    }
-
-    IEnumerator ToggleWind()
+    
+    IEnumerator ToggleLaser()
     {
         while (true)
         {
             yield return new WaitForSeconds(period);
             active = !active;
             wind.SetActive(active);
-            yield return new WaitForSeconds(period);
+
         }
     }
+
 }
