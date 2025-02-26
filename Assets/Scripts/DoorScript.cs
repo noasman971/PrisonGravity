@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;  
 public class DoorScript : MonoBehaviour
 {
     public int keysRequired = 3;
@@ -28,6 +28,9 @@ public class DoorScript : MonoBehaviour
             Debug.Log("Door is opening!");
             KeyManager.instance.RemoveKeys(keysRequired);
             Destroy(gameObject);
+            SceneManager.LoadScene("Couloir");
+            
+            
         }
     }
 }
