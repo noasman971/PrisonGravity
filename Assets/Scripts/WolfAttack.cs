@@ -11,12 +11,13 @@ public class WolfAttack : MonoBehaviour
     public bool gethit = false;
     public bool isAttacking = false;
     public float speed = 3f;
-    public float attackRange = 1.5f;
+    public float attackRange = 8f;
     public float damageAttackRange = 2f;
     public float attackCooldown = 2f;
     public float lastAttackTime = 0f;
-    public float verticalThreshold = 1f;
+    public float verticalThreshold = 8f;
     public float runRange = 3f;
+    public String attackAnimationName = "Attack";
     
     void Awake()
     {
@@ -32,21 +33,24 @@ public class WolfAttack : MonoBehaviour
             anim.Play("Death");
             return;
         }
-        
         float horizontalDistanceToPlayer = Mathf.Abs(transform.position.x - target.position.x);
         float verticalDistanceToPlayer = Mathf.Abs(transform.position.y - target.position.y);
         
         Vector2 direction = (target.position - transform.position).normalized;
         spriteRenderer.flipX = direction.x > 0;
 
+        if (direction.x > 0)
+        {
+            attackAnimationName = "AttackRight";
+        }
+
         if (isAttacking)
         {
             return;
 
         }
-            
+        
         if (horizontalDistanceToPlayer <= attackRange && 
-            verticalDistanceToPlayer <= verticalThreshold && 
             Time.time >= lastAttackTime + attackCooldown)
         {
             Attack();
@@ -77,8 +81,8 @@ public class WolfAttack : MonoBehaviour
     private void Attack()
     {
         isAttacking = true;
-        anim.Play("Attack");
-        lastAttackTime = Time.time;
+        anim.Play(attackAnimationName.ToString());
+        lastAttackTime = Time.time; 
         Invoke("EndAttack", 1f);
     }
     
