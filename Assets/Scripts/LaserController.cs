@@ -7,11 +7,14 @@ public class LaserController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Collider2D laserCollider;
     private bool isLaserOn = true;
+    private AudioSource audioSource;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         laserCollider = GetComponent<Collider2D>();
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = Resources.Load<AudioClip>("musics/explosion");
         StartCoroutine(ToggleLaser());
     }
 
@@ -31,6 +34,7 @@ public class LaserController : MonoBehaviour
     {
         if (other.CompareTag("Player") && isLaserOn)
         {
+            audioSource.Play();
             Destroy(other.gameObject);
         }
     }
