@@ -1,13 +1,13 @@
-using Unity.Mathematics.Geometry;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public AudioSource footstepSource; 
+    public AudioSource gravitySource;  
     public AudioClip GravityDown;
     public AudioClip GravityUp;
     public AudioClip footstepSound;  
-
+    
     public float decceleration;
     public float velPower;
     public float acceleration;
@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        if (footstepSource == null)
+            footstepSource = GetComponent<AudioSource>(); 
+        
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = gravityIntensity;
         animator = GetComponent<Animator>();
@@ -45,24 +48,24 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        if(moveInput == 0)
+        if (moveInput == 0)
         {
             animator.SetBool("Idle", true);
             animator.SetBool("Move", false);
-            if(audioSource.isPlaying && audioSource.clip == footstepSound)
+            if (footstepSource.isPlaying && footstepSource.clip == footstepSound)
             {
-                audioSource.Stop();
+                footstepSource.Stop();
             }
         }
         else
         {
             animator.SetBool("Idle", false);
             animator.SetBool("Move", true);
-            if(!audioSource.isPlaying)
+            if (!footstepSource.isPlaying)
             {
-                audioSource.clip = footstepSound;
-                audioSource.loop = true;
-                audioSource.Play();
+                footstepSource.clip = footstepSound;
+                footstepSource.loop = true;
+                footstepSource.Play();
             }
         }
 
@@ -71,21 +74,21 @@ public class PlayerController : MonoBehaviour
             rb.gravityScale *= -1;
             nextGravityChangeTime = Time.time + cooldownTime;
             
-            if(gravityChangeParticles != null)
+            if (gravityChangeParticles != null)
             {
                 gravityChangeParticles.Play();
             }
 
             if (up)
             {
-                audioSource.PlayOneShot(GravityUp);
+                gravitySource.PlayOneShot(GravityUp);
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 up = false;
             }
             else
             {
                 transform.eulerAngles = new Vector3(0, 0, 180);
-                audioSource.PlayOneShot(GravityDown);
+                gravitySource.PlayOneShot(GravityDown);
                 up = true;
             }
         }
