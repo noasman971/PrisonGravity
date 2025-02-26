@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using System.Linq;
 
 public class GuardScript : MonoBehaviour
 {
@@ -29,6 +30,16 @@ public class GuardScript : MonoBehaviour
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
+        var closestWaypoints = waypoints
+            .OrderBy(w => Vector3.Distance(transform.position, w.transform.position))
+            .Take(2)
+            .ToArray();
+
+        addWaypoint(closestWaypoints[0]);
+        addWaypoint(closestWaypoints[1]);
+        if (closestWaypoints.Length > 0) Debug.Log("Waypoint le plus proche : " + closestWaypoints[0]);
+        if (closestWaypoints.Length > 1) Debug.Log("Deuxième waypoint le plus proche : " + closestWaypoints[1]);
     }
 
 
@@ -123,6 +134,12 @@ public class GuardScript : MonoBehaviour
     }
 
 
+    void addWaypoint(GameObject waypoint)
+    {
+        int oldSize = waypoints.Length;
+        System.Array.Resize(ref waypoints, oldSize + 1);
+        waypoints[oldSize] = waypoint.transform;
+    }
 
 
     void GuardPath()
