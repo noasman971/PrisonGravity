@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aa17538e363a22f49970f704db652538
+guid: b03bf0b973acb8f458255259ad138c24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6444621180997702460
-    second: SKyPurple_0
+      213: -3932400655854760629
+    second: 14469177-2310987928_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SKyPurple_0
+      name: 14469177-2310987928_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 1000
+        x: 48
+        y: 23
+        width: 416
+        height: 466
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cc6ca25e2b1096a0800000000000000
-      internalID: -6444621180997702460
+      spriteID: b4d8341307e4d69c0800000000000000
+      internalID: -3932400655854760629
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SKyPurple_0: -6444621180997702460
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

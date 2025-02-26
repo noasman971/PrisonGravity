@@ -8,6 +8,9 @@ public class Rock : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
-        Destroy(gameObject);
+        else if (collision.gameObject.tag != "Rock")
+        {
+            Destroy(gameObject); 
+        }
     }
 }
