@@ -1,3 +1,4 @@
+using Unity.Mathematics.Geometry;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -5,7 +6,10 @@ public class PlayerController : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip GravityDown;
     public AudioClip GravityUp;
-
+    public float decceleration;
+    public float velPower;
+    public float acceleration;
+    private float moveInput;
     public float speed = 0.10f;
     public float gravityIntensity = 2.0f;
     public float cooldownTime = 0.5f;
@@ -23,13 +27,25 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+    private void FixedUpdate()
     {
 
+        float targetSpeed = speed * moveInput;
+        float speedDif = targetSpeed - rb.velocity.x;
+        float accelRate = (Mathf.Abs(targetSpeed)> 0.01f) ? acceleration : decceleration;
+        float movement = Mathf.Pow(Mathf.Abs(speedDif) * accelRate, velPower) * Mathf.Sign(speedDif);
+        rb.AddForce(Vector2.right * movement);
+    }
 
-        float move = Input.GetAxis("Horizontal") * speed;
-        transform.position += new Vector3(move, 0, 0);
-        if(move == 0){
+    void Update()
+    {
+        
+
+        moveInput = Input.GetAxisRaw("Horizontal");
+
+        //float move = Input.GetAxis("Horizontal") * speed;
+        //transform.position += new Vector3(move, 0, 0);
+        if(moveInput == 0){
             animator.SetBool("Idle", true);
             animator.SetBool("Move", false);
         } else {
@@ -62,11 +78,11 @@ public class PlayerController : MonoBehaviour
         Vector3 scale = transform.localScale;
         float originalX = Mathf.Abs(scale.x);
 
-        if (move > 0)
+        if (moveInput > 0)
         {
             scale.x = up ? -originalX : originalX;
         }
-        else if (move < 0)
+        else if (moveInput < 0)
         {
 
             scale.x = up ? originalX : -originalX;
