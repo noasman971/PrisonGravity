@@ -354,7 +354,7 @@ MonoBehaviour:
   matraque: {fileID: 2319645569360051694}
   parent: {fileID: 7372390725843592037}
   player: {fileID: 0}
-  attackRate: 3
+  attackRate: 1
   timer: 0
   matraquePrefab: {fileID: 1834126361777856538, guid: 8fe612afec1fe4d5ea8086e253431c9d, type: 3}
   hasAttacked: 0
