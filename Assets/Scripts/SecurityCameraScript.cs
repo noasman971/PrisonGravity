@@ -6,14 +6,13 @@ public class SecurityCameraScript : MonoBehaviour
     
     private LineRenderer lineRenderer;
     private PolygonCollider2D polyCollider;
-    public float timer = 0;
-    public float rotationTimer = 6;
     public GameObject GuardPrefab;
     public GameObject Player;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -27,7 +26,7 @@ public class SecurityCameraScript : MonoBehaviour
         {
             Vector3 parentPosition = transform.parent.position; 
 
-            Vector3 newPosition = parentPosition + new Vector3(UnityEngine.Random.Range(-15f, 15f), 0, 0);
+            Vector3 newPosition = parentPosition + new Vector3(UnityEngine.Random.Range(20f, 40f), 0, 0);
 
             Instantiate(GuardPrefab, newPosition, Quaternion.identity);
             

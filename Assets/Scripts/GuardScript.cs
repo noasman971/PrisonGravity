@@ -29,7 +29,6 @@ public class GuardScript : MonoBehaviour
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        Debug.Log("ALALLALALALA: " + GameObject.FindGameObjectWithTag("Player"));
     }
 
 
@@ -42,13 +41,12 @@ public class GuardScript : MonoBehaviour
     void Update()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
-        Debug.Log(hit);
-        Debug.Log("ALALLALALALA: " + player);
 
+        
         if (hit != null)
         {
             target = hit.transform;
-            Debug.Log("Joueur détecté !");
+            Debug.Log(target.name);
             FlipTowardsTarget(player);
             
             if (timer > attackRate && !hasAttacked)
@@ -131,13 +129,14 @@ public class GuardScript : MonoBehaviour
     {
         if (currentWaypoint <= waypoints.Length - 1)
         {
-            transform.position = Vector2.MoveTowards(transform.position, 
-                waypoints[currentWaypoint].transform.position, 
-                moveSpeed * Time.deltaTime);
-            
-            FlipTowardsTarget(waypoints[currentWaypoint]);
+            Vector2 targetPosition = new Vector2(waypoints[currentWaypoint].transform.position.x, transform.position.y);
+        
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
 
-            if (transform.position == waypoints[currentWaypoint].transform.position)
+        
+            FlipTowardsTarget(waypoints[currentWaypoint].transform.position);
+
+            if (Mathf.Approximately(transform.position.x, targetPosition.x))
             {
                 currentWaypoint++;
             }
@@ -147,4 +146,5 @@ public class GuardScript : MonoBehaviour
             currentWaypoint = 0;
         }
     }
+
 }
