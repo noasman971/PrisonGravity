@@ -7,11 +7,15 @@ public class PlayerThrow : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && BananaManager.instance.GetBananaCount() > 0)
+        if (bananaPrefab != null && BananaManager.instance != null)
         {
-            ThrowBanana();
-            BananaManager.instance.UseBanana();
+            if (Input.GetButtonDown("Fire1") && BananaManager.instance.GetBananaCount() > 0)
+            {
+                ThrowBanana();
+                BananaManager.instance.UseBanana();
+            }
         }
+  
     }
 
     void ThrowBanana()

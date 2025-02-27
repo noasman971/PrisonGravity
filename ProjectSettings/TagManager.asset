@@ -46,5 +46,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: TIlemap
+    uniqueID: 3716821745
+    locked: 0
   m_RenderingLayers:
   - Default
