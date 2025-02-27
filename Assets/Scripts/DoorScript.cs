@@ -9,17 +9,21 @@ public class DoorScript : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (KeyManager.instance != null)
         {
-           // SceneManager.LoadScene("cave");
-            if (KeyManager.instance.GetKeyCount() >= keysRequired)
+            
+            if (other.CompareTag("Player"))
             {
-               // SceneManager.LoadScene("cave");
-                OpenDoor();
-            }
-            else
-            {
-                Debug.Log("You need " + keysRequired + " keys to open this door. You have " + KeyManager.instance.GetKeyCount());
+                // SceneManager.LoadScene("cave");
+                if (KeyManager.instance.GetKeyCount() >= keysRequired)
+                {
+                    SceneManager.LoadScene("cave");
+                    OpenDoor();
+                }
+                else
+                {
+                    Debug.Log("You need " + keysRequired + " keys to open this door. You have " + KeyManager.instance.GetKeyCount());
+                }
             }
         }
     }

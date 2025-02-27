@@ -18,7 +18,7 @@ public class BananaProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy") || other.CompareTag("Guard"))
         {
             Destroy(other.gameObject);
             Destroy(gameObject);

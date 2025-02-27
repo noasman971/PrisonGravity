@@ -33,6 +33,12 @@ public class WolfAttack : MonoBehaviour
             anim.Play("Death");
             return;
         }
+
+        if (transform == null)
+        {
+            return;
+        }
+        
         float horizontalDistanceToPlayer = Mathf.Abs(transform.position.x - target.position.x);
         float verticalDistanceToPlayer = Mathf.Abs(transform.position.y - target.position.y);
         
