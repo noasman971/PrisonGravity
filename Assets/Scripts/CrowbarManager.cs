@@ -39,6 +39,9 @@ public class CrowbarManager : MonoBehaviour
     
     void UpdateCrowbarUI()
     {
-        crowbarStatusText.text = "Crowbar: " + (hasCrowbar ? "Acquired" : "None");
+        if (crowbarStatusText != null)
+        {
+            crowbarStatusText.text = "Crowbar: " + (hasCrowbar ? "Acquired" : "None");
+        }
     }
 }

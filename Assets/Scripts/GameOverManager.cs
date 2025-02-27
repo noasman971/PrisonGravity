@@ -1,18 +1,21 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameOverManager : MonoBehaviour
 {
     public static GameOverManager Instance;
-    public GameObject gameOverPanel; 
+    private GameObject gameOverPanel; 
     private bool gameOver = false;
-
+    private bool isRestarting = false;
+    
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);  
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
         else
         {
@@ -20,30 +23,74 @@ public class GameOverManager : MonoBehaviour
         }
     }
     
-    void Update()
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (GameObject.FindGameObjectWithTag("Player") == null && !gameOver)
+        Time.timeScale = 1f;
+        gameOver = false;
+        isRestarting = false;
+        
+        StartCoroutine(SetupAfterSceneLoad());
+    }
+    
+    IEnumerator SetupAfterSceneLoad()
+    {
+        yield return new WaitForEndOfFrame();
+        
+        gameOverPanel = GameObject.FindGameObjectWithTag("GameOverPanel");
+        if (gameOverPanel != null)
         {
-            GameOver();
+            gameOverPanel.SetActive(false);
         }
-
-        if (gameOver && Input.GetMouseButtonDown(0))
+        else
         {
-            RestartGame();
+            Debug.LogWarning("GameOverPanel not found in scene: " + SceneManager.GetActiveScene().name);
         }
     }
-
-    public void GameOver()
+    
+    void Update()
+    {
+        if (!gameOver && !isRestarting && GameObject.FindGameObjectWithTag("Player") == null)
+        {
+            TriggerGameOver();
+        }
+        
+        if (gameOver && !isRestarting && Input.GetMouseButtonDown(0))
+        {
+            StartCoroutine(RestartGame());
+        }
+    }
+    
+    public void TriggerGameOver()
     {
         gameOver = true;
-        gameOverPanel.SetActive(true);
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
         Time.timeScale = 0f;
     }
     
-    public void RestartGame()
+    public IEnumerator RestartGame()
     {
-        Time.timeScale = 1f; 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        gameOverPanel.SetActive(false);
+        isRestarting = true;
+        Time.timeScale = 1f;
+        
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
+        
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+        asyncLoad.allowSceneActivation = true;
+        
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+    }
+    
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
