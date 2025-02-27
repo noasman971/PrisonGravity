@@ -38,6 +38,9 @@ public class KeyManager : MonoBehaviour
     
     void UpdateKeyUI()
     {
-        keyCountText.text = "Keys: " + keys.ToString();
+        if (keyCountText != null)
+        {
+            keyCountText.text = "Keys: " + keys.ToString();
+        }
     }
 }

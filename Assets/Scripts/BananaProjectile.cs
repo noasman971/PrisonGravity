@@ -5,12 +5,15 @@ public class BananaProjectile : MonoBehaviour
     public float speed = 15f;
     public Vector2 direction;
     private Rigidbody2D rb;
+    private float spawnTime;
+    [SerializeField] private float immunity = 1f;
+
 
     private void Start()
     {
+        spawnTime = Time.time;
         rb = GetComponent<Rigidbody2D>();
         rb.linearVelocity = direction * speed;
-        Destroy(gameObject, 2f); // Auto-destroy after 2 seconds
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -20,9 +23,17 @@ public class BananaProjectile : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
-        else if (!other.CompareTag("Player"))
+        else if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            if (Time.time - spawnTime >= immunity)
+            {
+                Destroy(other.gameObject);
+                Destroy(gameObject);
+            }
+        }
+        else
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
 }

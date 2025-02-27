@@ -38,6 +38,9 @@ public class BananaManager : MonoBehaviour
     
     void UpdateBananaUI()
     {
-        bananaCountText.text = "Bananas: " + bananas.ToString();
+        if (bananaCountText != null)
+        {
+            bananaCountText.text = "Bananas: " + bananas.ToString();
+        }
     }
 }
