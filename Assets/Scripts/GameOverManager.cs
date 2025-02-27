@@ -8,6 +8,7 @@ public class GameOverManager : MonoBehaviour
     private GameObject gameOverPanel; 
     private bool gameOver = false;
     private bool isRestarting = false;
+    public static bool isHardMode = false;
     
     void Awake()
     {
@@ -74,18 +75,29 @@ public class GameOverManager : MonoBehaviour
     {
         isRestarting = true;
         Time.timeScale = 1f;
-        
+    
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
         }
-        
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
-        asyncLoad.allowSceneActivation = true;
-        
-        while (!asyncLoad.isDone)
+    
+        if (isHardMode)
         {
-            yield return null;
+            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Menu");
+            asyncLoad.allowSceneActivation = true;
+            while (!asyncLoad.isDone)
+            {
+                yield return null;
+            }
+        }
+        else
+        {
+            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+            asyncLoad.allowSceneActivation = true;
+            while (!asyncLoad.isDone)
+            {
+                yield return null;
+            }
         }
     }
     

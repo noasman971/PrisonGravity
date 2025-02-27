@@ -6863,6 +6863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 227717155}
+  canvaStats: {fileID: 0}
 --- !u!4 &599930337
 Transform:
   m_ObjectHideFlags: 0

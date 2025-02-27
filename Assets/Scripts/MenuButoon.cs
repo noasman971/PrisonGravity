@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class MenuButoon : MonoBehaviour
 {
     public GameObject playButton;
+    public GameObject CreditsButton;
     public GameObject title;
     public GameObject settingsScreen;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,6 +23,12 @@ public class MenuButoon : MonoBehaviour
     {
         SceneManager.LoadScene("Cell");
     }
+    
+    public void ToggleHardMode()
+    {
+        GameOverManager.isHardMode = !GameOverManager.isHardMode;
+        Debug.Log("Hard mode activé : " + GameOverManager.isHardMode);
+    }
 
     public void Credits()
     {
@@ -32,6 +39,7 @@ public class MenuButoon : MonoBehaviour
         playButton.SetActive(false);
         title.SetActive(false);
         settingsScreen.SetActive(true);
+        CreditsButton.SetActive(false);
     }
 
     public void exitSettings()
@@ -39,6 +47,7 @@ public class MenuButoon : MonoBehaviour
         playButton.SetActive(true);
         title.SetActive(true);
         settingsScreen.SetActive(false);
+        CreditsButton.SetActive(true);
     }
 
     public void Exit()
