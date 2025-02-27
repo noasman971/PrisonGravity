@@ -44,5 +44,6 @@ public class GameOverManager : MonoBehaviour
     {
         Time.timeScale = 1f; 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        gameOverPanel.SetActive(false);
     }
 }
