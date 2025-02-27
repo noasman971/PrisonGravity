@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/cave.unity
     guid: 0523623cebe70499ab7d0d89ec9a3b7e
   - enabled: 1
-    path: Assets/Scenes/LaCours.unity
+    path: Assets/Scenes/End.unity
     guid: f250569c9b6de4b99a5c30cde0d03c5f
   - enabled: 1
     path: Assets/Scenes/Cafet.unity
