@@ -10,12 +10,12 @@ public class MatraqueScript : MonoBehaviour
     private PlayerScript playerScript;
     private GuardScript guardScript;
     public GameObject SceneTransition;
-    private SceneController sceneController;
+    public SceneController sceneController;
 
 
     private void Awake()
     {
-        SceneTransition = GameObject.Find("SceneTransisitions");
+        SceneTransition = GameObject.Find("GameManager");
     }
 
     void Start()
@@ -44,8 +44,13 @@ public class MatraqueScript : MonoBehaviour
         
         else if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 0.4f;
+
+            sceneController.RestartLevelDeath();
+            
             Destroy(gameObject);
+
+            
             
         }
         guardScript.hasAttacked = false;
