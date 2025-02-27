@@ -23,6 +23,10 @@ public class MenuButoon : MonoBehaviour
         SceneManager.LoadScene("Cell");
     }
 
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
     public void Settings()
     {
         playButton.SetActive(false);

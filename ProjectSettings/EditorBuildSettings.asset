@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cafet.unity
     guid: 3a9bfff62b9376246b2504cff81ce955
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 532c6cbc48b94a879872a947c2d09b11
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
