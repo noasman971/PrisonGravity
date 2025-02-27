@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class GameOverManager : MonoBehaviour
 {
@@ -25,6 +26,11 @@ public class GameOverManager : MonoBehaviour
         {
             GameOver();
         }
+
+        if (gameOver && Input.GetMouseButtonDown(0))
+        {
+            RestartGame();
+        }
     }
 
     public void GameOver()
@@ -32,5 +38,11 @@ public class GameOverManager : MonoBehaviour
         gameOver = true;
         gameOverPanel.SetActive(true);
         Time.timeScale = 0f;
+    }
+    
+    public void RestartGame()
+    {
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
