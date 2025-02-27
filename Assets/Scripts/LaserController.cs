@@ -1,9 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.Universal; 
 
 public class LaserController : MonoBehaviour
 {
     [SerializeField] private float toggleInterval = 3f;
+    [SerializeField] private Light2D laserLight; 
     private SpriteRenderer spriteRenderer;
     private Collider2D laserCollider;
     private bool isLaserOn = true;
@@ -18,7 +20,6 @@ public class LaserController : MonoBehaviour
         StartCoroutine(ToggleLaser());
     }
 
-    
     IEnumerator ToggleLaser()
     {
         while (true)
@@ -27,6 +28,10 @@ public class LaserController : MonoBehaviour
             isLaserOn = !isLaserOn;
             spriteRenderer.enabled = isLaserOn;
             laserCollider.enabled = isLaserOn;
+            if(laserLight != null)
+            {
+                laserLight.enabled = isLaserOn;
+            }
         }
     }
 
