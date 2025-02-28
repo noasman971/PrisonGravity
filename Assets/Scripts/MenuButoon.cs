@@ -1,45 +1,35 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class MenuButoon : MonoBehaviour
+public class MenuButton : MonoBehaviour
 {
     public GameObject playButton;
-    public GameObject CreditsButton;
     public GameObject title;
     public GameObject settingsScreen;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Button hardModeButton;
+    public TMP_Text hardModeButtonText;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UpdateHardModeButton();
     }
 
     public void Play()
     {
         SceneManager.LoadScene("Cell");
     }
-    
-    public void ToggleHardMode()
-    {
-        GameOverManager.isHardMode = !GameOverManager.isHardMode;
-        Debug.Log("Hard mode activé : " + GameOverManager.isHardMode);
-    }
 
     public void Credits()
     {
         SceneManager.LoadScene("Credits");
     }
+
     public void Settings()
     {
         playButton.SetActive(false);
         title.SetActive(false);
         settingsScreen.SetActive(true);
-        CreditsButton.SetActive(false);
     }
 
     public void exitSettings()
@@ -47,12 +37,31 @@ public class MenuButoon : MonoBehaviour
         playButton.SetActive(true);
         title.SetActive(true);
         settingsScreen.SetActive(false);
-        CreditsButton.SetActive(true);
     }
 
     public void Exit()
     {
         Application.Quit();
     }
-    
+
+    public void ToggleHardMode()
+    {
+        GameOverManager.isHardMode = !GameOverManager.isHardMode;
+        UpdateHardModeButton();
+        Debug.Log("Hard mode activated: " + GameOverManager.isHardMode);
+    }
+
+    void UpdateHardModeButton()
+    {
+        if (GameOverManager.isHardMode)
+        {
+            hardModeButtonText.text = "Hard Mode: ON";
+            hardModeButton.image.color = Color.red;
+        }
+        else
+        {
+            hardModeButtonText.text = "Hard Mode: OFF";
+            hardModeButton.image.color = Color.white;
+        }
+    }
 }

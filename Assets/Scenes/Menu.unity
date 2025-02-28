@@ -185,9 +185,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playButton: {fileID: 1439691219}
-  CreditsButton: {fileID: 1965675672}
   title: {fileID: 2106080055}
   settingsScreen: {fileID: 2126079669}
+  hardModeButton: {fileID: 1355559712}
+  hardModeButtonText: {fileID: 1257286147}
 --- !u!4 &103185654
 Transform:
   m_ObjectHideFlags: 0
@@ -1080,8 +1081,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 18.4
+  m_fontSizeBase: 18.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
