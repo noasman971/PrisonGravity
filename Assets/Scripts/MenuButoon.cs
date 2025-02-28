@@ -8,6 +8,7 @@ public class MenuButton : MonoBehaviour
     public GameObject playButton;
     public GameObject title;
     public GameObject settingsScreen;
+    public GameObject CreditsButton;
     public Button hardModeButton;
     public TMP_Text hardModeButtonText;
     void Start()
@@ -29,6 +30,7 @@ public class MenuButton : MonoBehaviour
     {
         playButton.SetActive(false);
         title.SetActive(false);
+        CreditsButton.SetActive(false);
         settingsScreen.SetActive(true);
     }
 
@@ -36,6 +38,7 @@ public class MenuButton : MonoBehaviour
     {
         playButton.SetActive(true);
         title.SetActive(true);
+        CreditsButton.SetActive(true);
         settingsScreen.SetActive(false);
     }
 
