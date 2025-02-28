@@ -17,6 +17,9 @@ public class MenuButton : MonoBehaviour
 
     public void Play()
     {
+        PlayerPrefs.SetInt("nbrDeath", 0);
+        PlayerPrefs.SetInt("seconds", 0);
+        PlayerPrefs.Save(); 
         SceneManager.LoadScene("Cell");
     }
 
