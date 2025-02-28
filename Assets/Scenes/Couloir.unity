@@ -7533,7 +7533,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1548659149}
         m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
         m_MethodName: RestartLevel
         m_Mode: 1
@@ -7666,7 +7666,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1548659149}
         m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
@@ -14008,7 +14008,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1548659149}
         m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
@@ -14424,7 +14424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 1232517104}
-  canvaStats: {fileID: 0}
+  canvaStats: {fileID: 2125575498}
 --- !u!114 &1548659149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136660,7 +136660,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1548659149}
         m_TargetAssemblyTypeName: PauseGame, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
