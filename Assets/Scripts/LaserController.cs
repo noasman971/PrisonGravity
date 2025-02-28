@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Rendering.Universal; 
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class LaserController : MonoBehaviour
 {
@@ -10,9 +11,13 @@ public class LaserController : MonoBehaviour
     private Collider2D laserCollider;
     private bool isLaserOn = true;
     private AudioSource audioSource;
+    private GameObject GameManager;
+    private SceneController sceneController;
 
     void Start()
     {
+        GameManager = GameObject.Find("GameManager");
+        sceneController = GameManager.GetComponent<SceneController>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         laserCollider = GetComponent<Collider2D>();
         audioSource = gameObject.AddComponent<AudioSource>();
@@ -41,6 +46,7 @@ public class LaserController : MonoBehaviour
         {
             audioSource.Play();
             Destroy(other.gameObject);
+            sceneController.RestartLevelDeath();
         }
     }
 }
