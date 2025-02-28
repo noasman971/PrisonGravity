@@ -43,7 +43,6 @@ public class SceneController : MonoBehaviour
     SceneManager.LoadSceneAsync(level);
     transitionAnim.SetTrigger("Start");
     
-    Time.timeScale = 1;
     }
 
 }

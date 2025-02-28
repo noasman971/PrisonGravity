@@ -18,9 +18,10 @@ public class SpikesDangerous : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            
             Destroy(player);
 
-            sceneController.ReloadLevel();
+            sceneController.RestartLevelDeath();
         }
     }
 

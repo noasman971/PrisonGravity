@@ -44,8 +44,7 @@ public class MatraqueScript : MonoBehaviour
         
         else if (collision.gameObject.tag == "Player")
         {
-            Time.timeScale = 0.4f;
-
+            Destroy(collision.gameObject);
             sceneController.RestartLevelDeath();
             
             Destroy(gameObject);
