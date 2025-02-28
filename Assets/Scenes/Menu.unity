@@ -323,6 +323,7 @@ MonoBehaviour:
   playButton: {fileID: 1439691219}
   title: {fileID: 2106080055}
   settingsScreen: {fileID: 2126079669}
+  CreditsButton: {fileID: 0}
   hardModeButton: {fileID: 1355559712}
   hardModeButtonText: {fileID: 1257286147}
 --- !u!4 &103185654
@@ -2297,7 +2298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000023842, y: -440}
+  m_AnchoredPosition: {x: -10, y: -443}
   m_SizeDelta: {x: 422.3013, y: 116.0666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965675674
